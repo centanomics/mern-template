@@ -1,4 +1,6 @@
 // dont forget to create an .env file
+// make folders in the client/src folder for:
+// actions, components, pages, reducers, utils
 const cors = require('cors');
 const express = require('express');
 

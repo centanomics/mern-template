@@ -4,7 +4,7 @@
   "description": "A template for MERN projects",
   "main": "server.js",
   "scripts": {
-    "initial-setup": "npx create-react-app client; npm install bcryptjs config cors express express-validator jsonwebtoken mongoose uuid; npm instal --save-dev concurrently nodemon; npm install --prefix client axios json-server prop-type react-redux react-router-dom redux-devtools-extension redux-thunk redux; mkdir \"config\" \"controllers\" \"middleware\" \"models\" \"routes\"; mkdir --prefix client \"src/actions\" \"src/components\" \"src/pages\" \"src/reducers\" \"src/utils\"",
+    "initial-setup": "npx create-react-app client; npm install bcryptjs config cors express express-validator jsonwebtoken mongoose uuid; npm instal --save-dev concurrently nodemon; npm install --prefix client axios json-server prop-type react-redux react-router-dom redux-devtools-extension redux-thunk redux; mkdir \"config\" \"controllers\" \"middleware\" \"models\" \"routes\";",
     "start": "node server.js",
     "client": "npm start --prefix client",
     "server": "nodemon server.js",
